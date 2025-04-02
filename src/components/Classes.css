@@ -1,0 +1,27 @@
+/* .butt{
+    color: black;
+    background-color: #f9ecee;
+    border: 1px solid black;
+}
+.cd{
+    background-image: url(utils/bg2.png);
+    margin-left: 1%;
+}
+.card{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.card img{
+    width: 20%;
+    margin-top: 1%;
+} 
+*/
+.clo{height: 20%;
+    /* transform: scale(1.75);
+    transition: 0.3s; */
+
+}
+.gito{
+    background-image: url(utils/bg2.png);
+    padding-top: 2%;
+}

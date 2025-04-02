@@ -1,0 +1,100 @@
+.wel{width: 100%;
+    display: flex;
+}
+
+h6{margin-top: 20%;
+    font-size: 200%;
+    margin-left: 8%;
+    color:purple;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bolder; */
+
+}
+
+.hel{
+    margin-top: 0;
+    font-size: 340%;
+    margin-left: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.wel-left h4{
+    font-size: 170%;
+    margin-left: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wel-right img{
+    margin-bottom: 3%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 80%;
+}
+
+.b{
+    background-color: #f9ecee;
+   color: black;
+   border: solid 1px black;
+   border-radius: 10px;
+
+   margin-top: 10%;
+   margin-left: 8%;
+}
+.b:hover{
+    background-color: rgb(133, 96, 96);
+} 
+.join{ margin-left: 30%;
+    margin-right: 20%;
+    background-color: #f9ecee;
+
+}
+.joi{
+    margin-left: 10%;
+    margin-right: 40%;
+    background-color: #f9ecee;
+}
+.rom{
+    border: #f9ecee solid 1px;
+    padding-top: 10%;
+    width: 100%;
+    margin-right: 0;
+    /* background-image:url(utils/bg2.png) ; */
+    padding-bottom: 5%;
+}
+.btn{
+    border: #f9ecee solid 1px;
+    background-color: rgb(85, 12, 70);
+    color: white;
+    margin-left: 13%;
+    
+}
+.btn:hover{
+    
+}
+/* a{
+    font-size: 100px;
+} */
+.wom{
+    width: 100%;
+     background-image:url(utils/bg2.png) ;
+}
+.qom {
+    
+    color: white;
+    animation: vishal 7s linear infinite;
+}
+@keyframes vishal {
+    0% {
+        transform:translateX(0px) ;
+    }
+    100%{
+        transform: translateX(100px);
+
+    }
+}
+
+.b a{
+    color: black;
+}
