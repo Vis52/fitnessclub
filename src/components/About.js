@@ -1,5 +1,4 @@
 import React from 'react';
-import map from './utils/map.png'
 import './About.css'; // Import the external CSS file
 
 const about = () => {
