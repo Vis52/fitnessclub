@@ -9,8 +9,11 @@ body {
     margin: 0;
     padding: 0;
 }
-iframe{
-    width: 100%;
+.lim {
+    border: #de9fad solid 1px;
+    border-radius: 30px;
+    width: 50%;
+    height: 400px;
 }
 /* .coy{
     height: 800px;

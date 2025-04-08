@@ -10,6 +10,7 @@ import Navbar from './components/Header';
 import Home from './components/Home';
 import Classes from './components/Classes';
 import Welcome from './components/Welcome';
+import Book from './components/Book';
 
 
 const App = () => {
@@ -46,7 +47,10 @@ const App = () => {
           path: '/contact',
           element: <Contact />,
         },
-       
+       {
+        path:'/Book',
+        element:<Book/>,
+       },
       ],
     },
   ]);

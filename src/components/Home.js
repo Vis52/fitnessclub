@@ -70,7 +70,7 @@ const Home = () => {
             <img src={slider5} alt="" className='boy' width="100%" height="499" />
           </div>
           <div class="col-sm-8 ma">
-            <iframe width="100%" height="500" className='boy' src="https://www.youtube.com/embed/enYITYwvPAQ?controls=1&amp;controls=1" allowfullscreen=""></iframe>
+            <iframe  width="100%" height="500" className='boy' src="https://www.youtube.com/embed/enYITYwvPAQ?controls=1&amp;controls=1" allowfullscreen=""></iframe>
           </div>
         </div>
         <div class="row">

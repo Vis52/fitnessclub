@@ -6,10 +6,10 @@ h6{margin-top: 20%;
     font-size: 200%;
     margin-left: 8%;
     color:purple;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
     /* font-weight: bolder; */
 
-}
+
 
 .hel{
     margin-top: 0;
@@ -60,8 +60,8 @@ h6{margin-top: 20%;
     padding-top: 10%;
     width: 100%;
     margin-right: 0;
-    /* background-image:url(utils/bg2.png) ; */
-    padding-bottom: 5%;
+    background-image:url(utils/bg2.png) ;
+     padding-bottom: 5%;
 }
 .btn{
     border: #f9ecee solid 1px;
@@ -97,4 +97,20 @@ h6{margin-top: 20%;
 
 .b a{
     color: black;
+} 
+
+
+/* .wel-main {height: 100vh;
+    display: flex;
+    gap: 20%;
+    background: linear-gradient(to bottom, #f3dfe4, #ffc2d1);
+}
+.wel-main h1{
+    color: rgb(117, 116, 116);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+.imh{
+    width: 100%;
+    background-image:url(utils/home1.png) ;
+      
 }
