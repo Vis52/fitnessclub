@@ -9,11 +9,11 @@ body {
     margin: 0;
     padding: 0;
 }
-.lim {
+ .l3 .lim {
     border: #de9fad solid 1px;
     border-radius: 30px;
-    width: 50%;
-    height: 400px;
+    width: 240%;
+    height: 350px;
 }
 /* .coy{
     height: 800px;
@@ -66,4 +66,9 @@ body {
     display: inline-block;
     font-size: 1.2em;
     margin-top: 20px;
+}
+.l{
+    gap: 35%;
+    display: flex;
+    flex-direction: row;
 }
