@@ -69,8 +69,8 @@ const Book = () => {
                   </div>
                 </div>
               </form></div>
-
-            <textarea name="comment" placeholder="      Comment" required=""className='fom' spellcheck="false"></textarea>
+<div className='fom'>
+            <textarea name="comment" placeholder="      Comment" required=""className='fom1' spellcheck="false"></textarea></div>
             <button type="submit" class="primaryBtn ripple header_headerPrimaryBtn__1fcNx form2 "><span class="btn-text">Send Your Message</span> </button>
 
 

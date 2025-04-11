@@ -82,3 +82,28 @@ h3{
     gap: 38%;
     margin-left: 4.3%;
 }
+.ban1 h1{
+    /* margin-right: 40%; */
+    padding-right: 43%;
+}
+.ban1{
+    
+    
+    display: flex;
+   
+
+   }
+  .ban1-left img{
+    
+    height: 80px;
+    width: 70px;
+  }
+  .ban1-right h2{
+    margin-top: 20%;
+    color: white;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    
+ 
+  }

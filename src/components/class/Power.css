@@ -1,0 +1,25 @@
+.zumba{display: flex;
+    flex-direction: row-reverse;
+    
+   
+}
+.zumba-left img{
+    height: 90%;
+    border-radius: 5px;
+    margin-right: 0px;
+   
+}
+   
+.zumba-right h1{
+    margin-left: 35%;
+    
+
+}
+.zumba-right p{
+    font-size: 25px;
+    margin-left: 2%;
+    
+    
+
+
+}

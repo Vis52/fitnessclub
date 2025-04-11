@@ -1,0 +1,25 @@
+.free{display: flex;
+    flex-direction: row-reverse;
+    
+   
+}
+.free-left img{
+    height: 90%;
+    border-radius: 5px;
+    margin-right: 0px;
+   
+}
+   
+.free-right h1{
+    margin-left: 20%;
+    
+
+}
+.free-right p{
+    font-size: 25px;
+    margin-left: 2%;
+    
+    
+
+
+}

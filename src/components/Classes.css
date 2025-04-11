@@ -1,27 +1,251 @@
-/* .butt{
-    color: black;
-    background-color: #f9ecee;
-    border: 1px solid black;
-}
-.cd{
+
+
+
+
+.c-main{
+    
     background-image: url(utils/bg2.png);
-    margin-left: 1%;
 }
-.card{
-    margin-left: 2%;
-    margin-right: 2%;
+.bom {
+    padding-top: 5%;
 }
-.card img{
-    width: 20%;
-    margin-top: 1%;
-} 
-*/
-.clo{height: 20%;
-    /* transform: scale(1.75);
-    transition: 0.3s; */
+.c-main h1{
+
+    margin-left: 37%;
+    justify-content:center ;
+    align-items: center;
+}
+.c-main h4{
+    margin-left: 28%;
+}
+.c10{
+    display: flex;
+    margin-top: 5%;
+}
+.c10-left img{
+    height: 90%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.c10-right h1{
+    margin-left: 30%;
+}
+.c10-right p{
+    font-size: 25px;
+
 
 }
-.gito{
-    background-image: url(utils/bg2.png);
-    padding-top: 2%;
+.zumba{display: flex;
+    flex-direction: row-reverse;
+    
+   
+}
+.zumba-left img{
+    height: 90%;
+    border-radius: 5px;
+    margin-right: 0px;
+   
+}
+   
+.zumba-right h1{
+    margin-left: 35%;
+    
+
+}
+.zumba-right p{
+    font-size: 25px;
+    margin-left: 2%;
+    
+    
+
+
+}
+.aerobcs{
+    display: flex;
+    margin-top: 5%;
+}
+.aerobcs-left img{
+    height: 90%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.aerobcs-right h1{
+    margin-left: 30%;
+}
+.aerobcs-right p{
+    font-size: 25px;
+
+
+}
+.free{display: flex;
+    flex-direction: row-reverse;
+    
+   
+}
+.free-left img{
+    height: 90%;
+    border-radius: 5px;
+    margin-right: 0px;
+   
+}
+   
+.free-right h1{
+    margin-left: 20%;
+    
+
+}
+.free-right p{
+    font-size: 25px;
+    margin-left: 2%;
+    
+    
+
+
+}
+.out{
+    display: flex;
+    margin-top: 5%;
+}
+.out-left img{
+    height: 90%;
+    width: 160%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.out-right h1{
+    margin-left: 50%;
+}
+.out-right p{
+    font-size: 25px;
+    margin-left: 30%;
+
+
+}
+.bhan{display: flex;
+    flex-direction: row-reverse;
+    
+   
+}
+.bhan-left img{
+    height: 90%;
+    border-radius: 5px;
+    margin-right: 0px;
+   
+}
+   
+.bhan-right h1{
+    margin-left: 20%;
+    
+
+}
+.bhan-right p{
+    font-size: 25px;
+    margin-left: 2%;
+    
+    
+
+
+}
+.price{
+    padding-bottom: 5%
+}
+.proce{
+    gap:10%;
+    margin-top: 8%;
+    padding-bottom: 10%;
+    
+}
+.price1{
+    border: 1px solid ;
+    margin-left: 5%;
+    /* margin-left:10%;
+    margin-bottom: 6%;
+    margin-top: 9%;
+    
+    margin-right: 19%; */
+    border-radius: 20px;
+    background-color:rgb(237, 226, 247);
+
+}
+.price1 h4{
+    margin-left: 0px;
+}
+.price2{
+    margin-right: 5%;
+    /* margin-right: 1px; */
+    border: 1px solid ;
+    border-radius: 20px;
+    background-color:rgb(161, 90, 228);
+}
+.price2 h1{
+    margin:0;
+}
+.price3 h1{
+    margin:0;
+}
+
+.price3{border: 1px solid ;
+    /* margin-top: 5%;
+    margin-bottom: 4%; */
+    width: 10%;
+    
+    border-radius: 20px;
+    /* margin-right: 10%; */
+    background-color: rgb(209, 170, 244);
+   
+
+}
+ 
+h1{
+    font-weight: bold;
+}
+.price1 button {border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    color: black;
+
+}
+.price1 a{
+    color: black;
+}
+.price3:hover{
+    transform: scale(1.45);
+    transition: 0.3s;
+}
+.price2:hover{
+    transform: scale(1.45);
+    transition: 0.3s;
+}.price1:hover{
+    transform: scale(1.45);
+    transition: 0.3s;
+}
+.c10-left img:hover{
+    transform: scale(1.35);
+    transition: 0.3s;
+}
+.zumba-left img:hover{
+    transform: scale(1.35);
+    transition: 0.3s;
+}
+
+.aerobcs-left  img:hover{
+    transform: scale(1.35);
+    transition: 0.3s;
+}
+.free-left  img:hover{
+    transform: scale(1.35);
+    transition: 0.3s;
+}
+.out-left  img:hover{
+    transform: scale(1.35);
+    transition: 0.3s;
+}
+.bhan-left  img:hover{
+    transform: scale(1.35);
+    transition: 0.3s;
+}
+.banner img{
+    width: 100%;
+    padding-bottom:     .5%;
 }

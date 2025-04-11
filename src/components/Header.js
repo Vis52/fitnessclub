@@ -1,10 +1,10 @@
 import React from 'react'
 import './Header.css';
-import logo9 from './utils/logo9.png';
+import logo3 from './utils/logo3.png';
 
 const Navbar = () => {
   return (
-    <div className='container-fluid navbar'>  <a href='/'><img src={logo9} /></a>
+    <div className='container-fluid navbar'><div className='ban'> <div className='ban-left'> <a href='/'><img src={logo3} /></a></div><div className='ban-right'><a href='/'><h2> The Women<br/> Fitness</h2></a></div></div>
     
       
       <ul>
@@ -13,21 +13,34 @@ const Navbar = () => {
         <li><a  href='/classes'> Classes</a></li>
         <li><a  href='/contact'> Contact us</a></li>
         <li><a  href='/Book'> Book Free Trial</a></li>
+        
        
         
       </ul> 
-      
-                    <select id="businee" name="    Business" className='fo'>
+     
+      <div class="dropdown">
+    <button class="dropbtn">More</button>
+    <div class="dropdown-content">
+      <a href="/power">Power Yoga</a>
+      <a href="/aerobics">Aerobics</a>
+      <a href="/gym">Gym Fitness</a>
+      <a href="/bhangra">Bhangra</a>
+      <a href="/free">Free Weight</a>
+      <a href="/circuit">Circuit Training</a>
+      <a href="/classes">Others</a>
+    </div>
+  </div>
+                    {/* <select id="businee" name="    Business" className='fo'>
                       <option value="volvo">More </option>
-                      <option value="volvo">Zumba</option>
-                      <option value="saab">Aerobcs</option>
-                      <option value="fiat">Cardio</option>
-                      <option value="volvo">Indoor Cycling </option>
-                      <option value="saab">Outoor Gym</option>
-                      <option value="fiat">Marathon</option>
-                      <option value="audi">Others</option>
+                      <option value="volvo"><a href='/power'>Power Yoga</a></option>
+                      <option value="saab"><a href='/aeribics'>Aerobics</a></option>
+                      <option value="fiat"><a href='/gym'>Gym Fitness</a></option>
+                      <option value="volvo"><a href='/bhangra'>Bhangra </a></option>
+                      <option value="saab"><a href='/free'>Free Weight</a></option>
+                      <option value="fiat"><a href='/cir'>Circuit Training</a></option>
+                      <option value="audi"><a href='/classes'>Others</a></option>
                     </select>
-                  
+                   */}
       </div>
     
       

@@ -1,0 +1,19 @@
+.out{
+    display: flex;
+    margin-top: 5%;
+}
+.out-left img{
+    height: 90%;
+    width: 160%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.out-right h1{
+    margin-left: 50%;
+}
+.out-right p{
+    font-size: 25px;
+    margin-left: 30%;
+
+
+}

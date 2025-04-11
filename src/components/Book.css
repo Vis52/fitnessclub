@@ -20,13 +20,15 @@ input{
     font-size: 20px;
     margin-left: 20px;
 }
-.fom{ border: 1px solid black;
+.fom1{ border: 1px solid black;
     border-radius: 20px;
     font-size: 20px;
     width: 90%;
+    height: 200%;
     margin-top: 5%;
     margin-left: 2%;
-    height: 150%;
+    padding-bottom: 15%;
+    
 
 }
 .form1 p{
@@ -50,7 +52,7 @@ input{
     border-radius: 20px;
     height: 50px;
     width: 200px;
-    margin-top:2% ;
+    margin-top:7% ;
     margin-bottom: 20%;
     margin-left: 30%;
     background-color:rgb(47, 47, 47);

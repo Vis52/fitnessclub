@@ -1,5 +1,5 @@
 import React from 'react';
-import logo9 from './utils/logo9.png';
+import logo3 from './utils/logo3.png';
 import './Footer.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -7,14 +7,16 @@ const Footer = () => {
   return (
   <div class="container-fluid footer">
     <div class="row footer1">
-      <div class="col-9"><h1>Let's Connect Here </h1> 
+      <div class="col-9"> <div className='ban1'> 
+        <h1>Let's Connect Here!</h1>       <div className='ban1-left'> <a href='/'><img src={logo3} /></a></div><div className='ban1-right'><a href='/'><h2> The Women<br/> Fitness</h2></a></div></div>
       
   </div></div>
   <hr/>
       <div class="container-fluid ">
   <div class="row">
     <div class="col footer2">
-      <img src={logo9} alt=''/><br/>
+    {/* <div className='ban1'> <div className='ban1-left'> <a href='/'><img src={logo3} /></a></div><div className='ban1-right'><a href='/'><h2> The Women<br/> Fitness</h2></a></div></div> */}
+      {/* <img src={logo9} alt=''/><br/> */}
       <br/>
       <ul>
         <li>Empowers Strength</li>
@@ -38,10 +40,10 @@ const Footer = () => {
     <div class="col footer4 order-1">
     <h3>Quick Links</h3>
       <ul>
-        <li><a href=''>Home</a></li>
-        <li><a href=''>About</a></li>
-        <li><a href=''>Classes</a></li>
-        <li><a href=''>Contact Us</a></li>
+        <li><a href='/home'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/classes'>Classes</a></li>
+        <li><a href='/contact'>Contact Us</a></li>
       </ul>
     </div>
     
